@@ -19,9 +19,9 @@ git clone https://github.com/rohitkrtiwari/C-Linked-List-Header.git
 #include "list.h"
 int main()
 {
-    num list;     // list Declaration
-    list = init(list);
-    list_functions();              // Displays all the      functions of this module
+    num list;                       // List Declaration
+    list = init(list);              // Initialize List with NULL
+    list_functions();               // Displays all the functions of this module
     return 0;
 }
 </pre>
