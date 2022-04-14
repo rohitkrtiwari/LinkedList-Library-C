@@ -19,19 +19,18 @@ git clone https://github.com/rohitkrtiwari/C-Linked-List-Header.git
 #include "list.h"
 int main()
 {
-    struct node * list;             // list Declaration
-    list = init();
-    list_functions();               // Displays all the functions of this module
+    num list;     // list Declaration
+    list = init(list);
+    list_functions();              // Displays all the      functions of this module
     return 0;
 }
 </pre>
 
 ## **init()**
-Initializes the Linked List with NULL values
+Initializes the list with NULL 
 <pre>
-list = init(list);
+list = append(list, 1);
 </pre>
-
 
 ## **append()**
 Adds the new element at end of the list
