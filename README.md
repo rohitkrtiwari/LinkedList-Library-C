@@ -19,10 +19,17 @@ git clone https://github.com/rohitkrtiwari/C-Linked-List-Header.git
 #include "list.h"
 int main()
 {
-    struct node * list = NULL;     // list Declaration
-    list_functions();              // Displays all the      functions of this module
+    struct node * list;             // list Declaration
+    list = init();
+    list_functions();               // Displays all the functions of this module
     return 0;
 }
+</pre>
+
+## **init()**
+Initializes the Linked List with NULL values
+<pre>
+list = init(list);
 </pre>
 
 
