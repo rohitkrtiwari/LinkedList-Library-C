@@ -16,6 +16,7 @@ git clone https://github.com/rohitkrtiwari/LinkedList-Library-C.git
 
 ## **Starter Code**
 <pre>
+#include &lt;stdio.h&gt;
 #include "list.h"
 int main()
 {
