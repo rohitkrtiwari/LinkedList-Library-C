@@ -10,7 +10,7 @@ A linked list is a linear data structure, in which the elements are not stored a
 
 ## **get repo**
 <pre>
-git clone https://github.com/rohitkrtiwari/C-Linked-List-Header.git 
+git clone https://github.com/rohitkrtiwari/LinkedList-Library-C.git
 </pre>
 
 
